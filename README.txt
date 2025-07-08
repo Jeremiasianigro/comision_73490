@@ -1,0 +1,2 @@
+JUEGO: adivina el numero especial
+El programa elige un número aleatorio del 1 al 10. El usuario tiene 3 intentos para adivinarlo. Después de cada intento, se le dice si acertó o no. Al final, se muestra un resumen de los intentos.
