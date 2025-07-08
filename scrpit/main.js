@@ -11,7 +11,7 @@ const intentos = [];
 let intentosRestantes = 3;
 
 while (intentosRestantes > 0) {
-  const entrada = prompt(`Adiviná el número secreto (entre 1 y 10). Te quedan ${intentosRestantes} intento(s):`);
+  const entrada = prompt("Adiviná el número secreto (entre 1 y 10). Te quedan " + intentosRestantes + "intento(s):");
   const numeroUsuario = Number(entrada);
 
   if (isNaN(numeroUsuario) || numeroUsuario < 1 || numeroUsuario > 10) {
